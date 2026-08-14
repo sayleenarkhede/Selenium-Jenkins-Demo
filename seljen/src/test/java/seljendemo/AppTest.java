@@ -21,7 +21,7 @@ public class AppTest {
         driver.get("https://the-internet.herokuapp.com/login");
 
         driver.findElement(By.id("username"))
-              .sendKeys("tomsmith");
+              .sendKeys("tomsmith123");
 
         driver.findElement(By.id("password"))
               .sendKeys("SuperSecretPassword!");
